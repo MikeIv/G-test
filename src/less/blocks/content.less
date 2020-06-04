@@ -90,8 +90,7 @@
 
   margin: 0;
   padding: 0;
-  padding-left: 15px;
-  padding-right: 15px;
+
   box-sizing: border-box;
 
   font-family: "Roboto Condensed", sans-serif;
@@ -110,6 +109,8 @@
 
   padding-top: 15px;
   padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   box-sizing: border-box;
 
 }
@@ -383,7 +384,7 @@
     height: 450px;
   }
 
-  .content__item {
+  .content__item-head {
     padding-left: 45px;
     padding-right: 45px;
   }
@@ -392,6 +393,8 @@
   .content__subitem {
     padding-top: 29px;
     padding-bottom: 29px;
+    padding-left: 45px;
+    padding-right: 45px;
   }
 
 
@@ -415,6 +418,10 @@
 
 
 @media (min-width: 1024px) {
+
+  .content__h1 {
+    width: 100%;
+  }
 
   .content__subitem {
     flex-direction: row;
